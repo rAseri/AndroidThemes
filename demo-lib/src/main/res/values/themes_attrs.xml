@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base attributes -->
+    <attr name="themePrimary" format="reference" />
+    <attr name="themePrimaryDark" format="reference" />
+    <attr name="themeAccent" format="reference" />
+
+    <!-- Window attributes -->
+    <attr name="themeWindowBackground" format="reference" />
+
+    <!-- Button attributes -->
+    <attr name="themeButtonTextRes" format="reference" />
+    <attr name="themeButtonColorOnWindowBackground" format="reference" />
+    <attr name="themeButtonTextColorOnWindowBackground" format="reference" />
+
+    <!-- Icon attributes -->
+    <attr name="themeIconRes" format="reference" />
+    <attr name="themeIconColorOnWindowBackground" format="reference" />
+
+    <!-- Text attributes -->
+    <attr name="themeTextRes" format="reference" />
+    <attr name="themeTextColorOnWindowBackground" format="reference" />
+
+</resources>

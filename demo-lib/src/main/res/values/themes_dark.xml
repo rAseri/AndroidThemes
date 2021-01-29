@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DarkTheme" parent="BaseAppTheme">
+
+        <!-- Base colors -->
+        <item name="themePrimary">@color/grey_900</item>
+        <item name="themePrimaryDark">@color/grey_900_A80</item>
+        <item name="themeAccent">@color/grey_300</item>
+
+        <!-- Window colors -->
+        <item name="themeWindowBackground">@color/grey_900</item>
+
+        <!-- Button colors -->
+        <item name="themeButtonTextRes">@string/button_text_dark</item>
+        <item name="themeButtonColorOnWindowBackground">@color/grey_300</item>
+        <item name="themeButtonTextColorOnWindowBackground">@color/grey_800</item>
+
+        <!-- Icon colors -->
+        <item name="themeIconRes">@drawable/ic_night_24</item>
+        <item name="themeIconColorOnWindowBackground">@color/grey_300</item>
+
+        <!-- Text colors -->
+        <item name="themeTextRes">@string/welcome_text_dark</item>
+        <item name="themeTextColorOnWindowBackground">@color/grey_300</item>
+
+    </style>
+
+</resources>

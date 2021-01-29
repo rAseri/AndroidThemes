@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LightTheme" parent="BaseAppTheme">
+
+        <!-- Base colors -->
+        <item name="themePrimary">@color/grey_50</item>
+        <item name="themePrimaryDark">@color/grey_500_A80</item>
+        <item name="themeAccent">@color/green_600</item>
+
+        <!-- Window colors -->
+        <item name="themeWindowBackground">@color/grey_50</item>
+
+        <!-- Button colors -->
+        <item name="themeButtonTextRes">@string/button_text_light</item>
+        <item name="themeButtonColorOnWindowBackground">@color/grey_800</item>
+        <item name="themeButtonTextColorOnWindowBackground">@color/grey_300</item>
+
+        <!-- Icon colors -->
+        <item name="themeIconRes">@drawable/ic_day_24</item>
+        <item name="themeIconColorOnWindowBackground">@color/grey_800</item>
+
+        <!-- Text colors -->
+        <item name="themeTextRes">@string/welcome_text_light</item>
+        <item name="themeTextColorOnWindowBackground">@color/grey_800</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_A80">#CCFFFFFF</color>
+    <color name="white_A95">#F2FFFFFF</color>
+
+    <color name="green_50">#E8F5E9</color>
+    <color name="green_100">#E0F1E0</color>
+    <color name="green_300">#81C784</color>
+    <color name="green_600">#43a047</color>
+    <color name="green_800">#2E7D32</color>
+
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_50_A30">#4DFAFAFA</color>
+    <color name="grey_50_A80">#CCFAFAFA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_500_A20">#339E9E9E</color>
+    <color name="grey_500_A80">#CC9E9E9E</color>
+    <color name="grey_550">#898989</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_600_A20">#33757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_825_A95">#F2373737</color>
+    <color name="grey_850">#323232</color>
+    <color name="grey_850_A90">#E62D2D2D</color>
+    <color name="grey_900">#212121</color>
+    <color name="grey_900_A35">#59212121</color>
+    <color name="grey_900_A80">#CC212121</color>
+
+    <color name="black">#000000</color>
+    <color name="black_A35">#59000000</color>
+    <color name="black_A0">#00000000</color>
+
+</resources>

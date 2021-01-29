@@ -1,0 +1,17 @@
+# All .iml files that are created by IDE
+*.iml
+
+# Root .idea that is created by IDE
+/.idea/
+
+# All .gradle directories of the project
+.gradle/
+
+# Local properties that are used only on local machine
+/local.properties
+
+# All build directories in all modules
+build/
+
+# Root captures directory
+/captures

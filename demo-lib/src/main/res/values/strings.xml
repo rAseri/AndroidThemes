@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="welcome_text_light">Hello Light Theme</string>
+    <string name="welcome_text_dark">Hello Dark Theme</string>
+
+    <string name="button_text_light">Turn On Dark Theme</string>
+    <string name="button_text_dark">Turn On Light Theme</string>
+
+</resources>
