@@ -12,7 +12,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:background="?themeButtonColorOnWindowBackground"
+        android:padding="16dp"
         android:text="Theme Toggle Demo"
+        android:textColor="?themeButtonTextColorOnWindowBackground"
         tools:ignore="HardcodedText" />
 
     <Button
@@ -20,7 +23,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:background="?themeButtonColorOnWindowBackground"
+        android:padding="16dp"
         android:text="Theme Override Demo"
+        android:textColor="?themeButtonTextColorOnWindowBackground"
         tools:ignore="HardcodedText" />
 
 </LinearLayout>

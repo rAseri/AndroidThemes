@@ -1,6 +1,7 @@
 package ru.surinov.demo.themes.lib
 
 import android.content.Context
+import android.graphics.Color
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -46,7 +47,7 @@ class ThemeDemoFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val color = colorTestView.getColor(R.attr.themeIconColorOnWindowBackground)
+        val color = MaterialColors.getColor(requireActivity(), R.attr.themeIconColorOnWindowBackground, Color.BLACK)
         colorTestView.setBackgroundColor(color)
     }
 
