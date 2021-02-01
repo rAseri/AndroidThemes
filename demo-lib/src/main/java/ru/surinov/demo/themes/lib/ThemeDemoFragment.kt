@@ -5,9 +5,13 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.annotation.AttrRes
+import androidx.annotation.ColorInt
 import androidx.annotation.StyleRes
 import androidx.appcompat.view.ContextThemeWrapper
 import androidx.fragment.app.Fragment
+import com.google.android.material.color.MaterialColors
+import kotlinx.android.synthetic.main.fragment_theme_demo.*
 
 class ThemeDemoFragment : Fragment() {
 
@@ -37,6 +41,22 @@ class ThemeDemoFragment : Fragment() {
 
         val themedInflater = applyThemeToInflater(inflater, themRes)
         return themedInflater.inflate(R.layout.fragment_theme_demo, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        val color = colorTestView.getColor(R.attr.themeIconColorOnWindowBackground)
+        colorTestView.setBackgroundColor(color)
+    }
+
+    /**
+     * Returns the color int for the provided theme color attribute, using the [Context] of the
+     * current [this] view.
+     */
+    @ColorInt
+    fun View.getColor(@AttrRes colorAttr: Int): Int {
+        return MaterialColors.getColor(this, colorAttr)
     }
 
     private fun applyThemeToInflater(
