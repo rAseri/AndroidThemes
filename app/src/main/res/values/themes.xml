@@ -10,7 +10,7 @@
 
     </style>
 
-    <style name="CustomTheme" parent="LightTheme">
+    <style name="CustomTheme" parent="LibTheme">
         <item name="themeIconColorOnWindowBackground">@color/teal_700</item>
     </style>
 

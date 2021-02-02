@@ -3,7 +3,7 @@
     package="ru.surinov.demo.themes.lib">
 
     <application>
-        <activity android:name=".ThemeToggleDemoActivity" />
+        <activity android:name=".ThemeSettingDemoActivity" />
     </application>
 
 </manifest>

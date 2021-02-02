@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -11,12 +12,30 @@
         android:layout_weight="1" />
 
     <Button
-        android:id="@+id/btnToggleTheme"
+        android:id="@+id/btnTurnDarkMode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:background="?attr/themeButtonColorOnWindowBackground"
-        android:text="?themeButtonTextRes"
-        android:textColor="?themeButtonTextColorOnWindowBackground" />
+        android:text="Turn Dark Mode"
+        android:textColor="?themeButtonTextColorOnWindowBackground"
+        app:backgroundTint="?attr/themeButtonColorOnWindowBackground" />
+
+    <Button
+        android:id="@+id/btnTurnLightMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Turn Light Mode"
+        android:textColor="?themeButtonTextColorOnWindowBackground"
+        app:backgroundTint="?attr/themeButtonColorOnWindowBackground" />
+
+    <Button
+        android:id="@+id/btnTurnFollowSystemMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Turn Follow System Mode"
+        android:textColor="?themeButtonTextColorOnWindowBackground"
+        app:backgroundTint="?attr/themeButtonColorOnWindowBackground" />
 
 </LinearLayout>

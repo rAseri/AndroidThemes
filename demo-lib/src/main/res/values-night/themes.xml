@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="DarkTheme" parent="BaseAppTheme">
+    <style name="LibTheme" parent="BaseAppTheme">
 
         <!-- Base colors -->
         <item name="themePrimary">@color/grey_900</item>
